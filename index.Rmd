@@ -84,7 +84,7 @@ Row
 ```{r}
 
 leaflet() %>%
-  setView(-84.1, (9.907672 + 9.94576)/2, 13) %>%
+  setView(-84.05, (9.907672 + 9.94576)/2, 13) %>%
   addProviderTiles(providers$OpenStreetMap.Mapnik, group = "OpenStreetMap") %>%
   addProviderTiles(providers$Stamen.TonerLite, group = "Stamen Toner Lite") %>%
   addProviderTiles(providers$CartoDB.DarkMatter, group = "CartoDB Dark Matter") %>%
