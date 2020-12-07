@@ -1,5 +1,5 @@
 ---
-title: "Mapa de infraestructura verde en el CBIRT"
+title: "Mapa de infraestructura verde del Corredor Biológico Interurbano Río Torres"
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
@@ -80,7 +80,7 @@ pal <- colorFactor(
 Row
 -----------------------------------------------------------------------
 
-### Datos para descarga: [Capa de infraestructura verde en el CBIRT](https://raw.githubusercontent.com/atlas-servicios-ecosistemicos-gam/datos/master/infraestructura-verde/cbirt/IV_CBI_RIO_TORRES.TIF)
+### Datos para descarga: [Capa geoespacial de infraestructura verde del Corredor Biológico Interurbano Río Torres](https://raw.githubusercontent.com/atlas-servicios-ecosistemicos-gam/datos/master/infraestructura-verde/cbirt/IV_CBI_RIO_TORRES.TIF)
 ```{r}
 
 leaflet() %>%
