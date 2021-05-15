@@ -106,6 +106,7 @@ leaflet() %>%
   ) %>%
   addRasterImage(
     raster_infraestructura_verde,
+    layerId = "raster",    
     colors = pal,
     opacity = 1,
     group = "Infraestructura verde"
